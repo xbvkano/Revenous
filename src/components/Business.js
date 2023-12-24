@@ -16,7 +16,7 @@ const business = {
 function Business() {
     return (
         <div className="Business">
-            <img src={business.image}/>
+            <img src={business.imageSrc}/>
             <h2>{business.name}</h2>
             <div className="Business-information">
                 <p className="address">{business.address}</p>
